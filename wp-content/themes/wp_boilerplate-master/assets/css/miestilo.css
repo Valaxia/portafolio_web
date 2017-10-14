@@ -1,0 +1,269 @@
+
+
+/* estilos menu wordpress */
+#sideNavigation .header_menu {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #cdcdcd;
+}
+
+
+.fondo-venus{
+  background: url('../images/venus.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100vw;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+
+
+
+.box{
+  height: 50px;
+  width: 50px;
+  background-color: #cdcdcd;
+  position: relative;
+
+}
+#icoOpen{
+  position: absolute;
+  top: 24px;
+  left: 26px;
+}
+
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #cdcdcd; 
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  /*   font-family: 'Lobster', cursive; */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 24px;
+  color: #fff;
+  display: block;
+  transition: 0.3s
+}
+
+.logo{
+  margin: 0 0 15px 25px;
+  position: absolute;
+  top:10px;
+  right: 20px;
+
+}
+
+
+/* When you mouse over the navigation links, change their color */
+  /* .sidenav a:hover, .offcanvas a:focus{
+      color: #fe0e00;
+      } */
+
+      /* Position and style the close button (top right corner) */
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 20px;
+        margin-left: 50px;
+      }
+
+
+
+
+
+
+      /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+      #main {
+        transition: margin-left .5s;
+        padding: 0px;
+        overflow:hidden;
+        width:100%;
+      }
+      body {
+        overflow-x: hidden;
+      }
+
+
+      /* Style the links inside the navigation bar */
+      .topnav a {
+        display: block;
+        padding: 14px 16px;
+
+      }
+
+
+      /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+      @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+      }
+
+      a svg{
+        transition:all .5s ease;
+      }
+      a svg:hover{
+        #transform:rotate(180deg);
+      }
+
+      #ico{
+        display: none;
+      }
+
+      .menu{
+        display: block;
+        padding: 5px;
+        width: 320px;
+
+
+        transition: all 0.5s ease;
+      }
+      .menu  a{
+        display: block;
+        color: #fff;
+        margin: 3px 0;
+        text-decoration: none;
+        font-family: 'Quicksand', sans-serif;
+        text-align: left;
+        font-weight: 300;
+
+      }
+
+      .menu a:nth-child(1){
+        margin-top: 0;
+        border-radius: 3px 3px 0 0 ;
+      }
+      .menu a:nth-child(5){
+        margin-bottom: 0;
+        border-radius: 0 0 3px 3px;
+      }
+
+      .menu a:hover{
+        color: #cdcdcd;
+      }
+
+
+
+      /* estilos portafolio diseño */
+
+.thumbnail-vale {
+  display: block;
+  padding: 4px;
+  margin-bottom: 40px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: none !important;
+  border-radius: 0px !important;
+}
+
+h2, h3, h5, p{
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  color: #7b7a7a
+
+}
+
+h3, h4{
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  color: #7b7a7a;
+
+}
+
+p{
+  margin-top: 5px;
+}
+
+h5{
+  margin-bottom: 5px;
+}
+
+h2{
+  font-size: 15px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+header{
+  text-align: center;
+  padding-bottom: 40px;
+
+}
+
+img{
+  padding-bottom: 10px;
+}
+
+.img-responsive{
+  text-align: center;
+  display: block;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.img-responsiveLOGO{
+  padding-top: 10px;
+
+}
+
+
+hr {
+    margin-top: 42px;
+    margin-bottom: 3px;
+    border: 0;
+    border-top: 1px solid #c3c1c1;
+}
+
+
+/*    .overlay2 {
+    position: relative;
+    width: 100%;
+  }
+  .overlay2-vale {
+    background-color: black;
+    opacity: 0;
+    background: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+  }
+  
+  .overlay2-vale:hover {
+    opacity: 0.3;
+
+}
+ */
+
+      .copyright { min-height:40px; background-color:#feea00;}
+      .copyright p { text-align:left; color:#5d5c59; padding-left:20px 0; margin-bottom:0px;}
+      .heading7 { font-size:21px; font-weight:700; color:#fffdef; margin-bottom:22px;}
+      .post p { font-size:12px; color:#fffdef; line-height:20px;}
+      .post p span { display:block; color:#fffdef;}
+      .bottom_ul { list-style-type:none; float:right; margin-bottom:0px;}
+      .bottom_ul li { float:left; line-height:40px;}
+      .bottom_ul li:after { content:"/"; color:#fffdef; margin-right:8px; margin-left:8px;}
+      .bottom_ul li a { color:#fffdef;  font-size:12px;}
+
+
+
